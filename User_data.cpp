@@ -20,7 +20,8 @@ void User_database :: Add()
   getline(cin,password);
   a.password=password;
   
-
+//user adding starts from here
+                      
   u.push_back(a);
   cout<<"User Added Successfully"<<endl;
   cout<<"----------------------"<<endl;}
